@@ -4,6 +4,7 @@ body{
 nav{
     display:flex;
     justify-content: space-between;
+    margin:0 200px;
 }
 .nav-title{
     color: #181818;
@@ -35,4 +36,15 @@ nav li{
 nav a{
     text-decoration: none;
     color:#474747;
+}
+.header{
+    background-color: #FFF8F3;
+}
+.bennar{
+    padding:30 30 30 150px;
+    display: flex;
+    align-items: center;
+}
+.bennar .profile-picture{
+    width: 400px;
 }
