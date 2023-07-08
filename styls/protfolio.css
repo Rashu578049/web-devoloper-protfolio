@@ -23,6 +23,19 @@ nav{
     color:white;
     padding:15px 35px;
 }
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+.section-decscription{
+    color:#757575;
+    text-align: center;
+    size: 18px;
+
+}
 nav > ul{
     display: flex;
     align-items: center;
@@ -39,12 +52,40 @@ nav a{
 }
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .bennar{
-    padding:30 30 30 150px;
+    padding:30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.bennar-content{
+    max-width: 500px;
 }
 .bennar .profile-picture{
     width: 400px;
+}
+.bennar-greeating{
+    font-size: 45px;
+    color:#474747;
+    margin-bottom: 0px;
+}
+.bennar-title{
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.pra{
+    font-size:20px;
+    margin-bottom:10px;
+}
+.about{
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin:130px 0;
 }
